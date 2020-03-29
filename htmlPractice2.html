@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            h1 {
+                color: blue;
+                font-size: 40px;
+            }
+
+            button {
+                width: 120px;
+                height: 30px;
+                font-size: 16px;
+                background-color: lightgreen;
+                text-align: center;
+            }
+
+            button:hover {
+                background-color: orange;
+                color: blue;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <a href="htmlPractice.html">Lists</a>
+        <a href="htmlPractice2.html">Forms</a>
+
+        <h1>Fill Out the Form Below</h1>
+
+        <form>
+            <div>
+                <h3>Name</h3>
+                <p><input name="name" type="text" placeholder="Name"></p>
+                <h3>Age</h3>
+                <p><input name="age" type="number" placeholder="Age"></p>
+            </div>
+            <div>
+                <h3>Favorite Color</h3>
+                <p><input name="color" type="radio" value="Red">    Red</p>
+                <p><input name="color" type="radio" value="Orange">    Orange</p>
+                <p><input name="color" type="radio" value="Yellow">    Yellow</p>
+                <p><input name="color" type="radio" value="Green">    Green</p>
+                <p><input name="color" type="radio" value="Blue">    Blue</p>
+                <p><input name="color" type="radio" value="Purple">    Purple</p>
+            </div>
+            <div>
+                <h3>Country</h3>
+                <p><input name="country" list="countries" placeholder="Country"></p>
+
+                <datalist id="countries">
+                    <option value="Australia">
+                    <option value="Austria">
+                    <option value="Bahamas">
+                    <option value="Belgium">
+                    <option value="Canada">
+                    <option value="China">
+                    <option value="Denmark">
+                    <option value="Fiji">
+                    <option value="Finland">
+                    <option value="France">
+                    <option value="Germany">
+                    <option value="Greece">
+                    <option value="Hungary">
+                    <option value="Iceland">
+                    <option value="India">
+                    <option value="Ireland">
+                    <option value="Israel">
+                    <option value="Italy">
+                    <option value="Japan">
+                    <option value="Mexico">
+                    <option value="Nepal">
+                    <option value="Netherlands">
+                    <option value="New Zealand">
+                    <option value="Nigeria">
+                    <option value="North Korea">
+                    <option value="Norway">
+                    <option value="Pakistan">
+                    <option value="Peru">
+                    <option value="Philippines">
+                    <option value="Poland">
+                    <option value="Romania">
+                    <option value="Russia">
+                    <option value="Singapore">
+                    <option value="South Africa">
+                    <option value="South Korea">
+                    <option value="Spain">
+                    <option value="Sweden">
+                    <option value="Switzerland">
+                    <option value="Thailand">
+                    <option value="Turkey">
+                    <option value="Ukraine">
+                    <option value="United Kingdom">
+                    <option value="United States of America">
+                    <option value="Vietnam">
+                    <option value="Zimbabwe">
+                </datalist>
+            </div>
+            <div>
+                <p></p>
+                <button>Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

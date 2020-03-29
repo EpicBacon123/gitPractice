@@ -1,34 +1,32 @@
 <html>
     <head>
-        <title></title>
-
+        <title>Lists</title>
         <style>
-            #large {
-                font-size: 40px;
-                text-align: center;
-                color:#00bfff;
-                padding:50px;
+            p::before {
+                content: "Read Me:    ";
             }
 
-            #small {
-                font-size: 30px;
-                text-align: center;
-                padding: 50px;
-            }
-
-            .name {
+            p::selection {
+                color: blue;
+                background-color: lightgreen;
                 font-weight: bold;
-                color:#00fc26;
             }
         </style>
-
     </head>
     <body>
-        <div id="large">
-            This text is the <span class="name">largest and most colorful</span> of them all.
-        </div>
-        <div id="small">
-            This text is the <span class="name">smallest</span> of them all.
-        </div>
+        <a href="htmlPractice.html">Lists</a>
+        <a href="htmlPractice2.html">Forms</a>
+
+        <ol>
+            <li><p>The first listed item!</p></li>
+            <li><p>Complete the form:</p></li>
+            <ul>
+                <li>Name</li>
+                <li>Age</li>
+                <li>Color</li>
+                <li>Country</li>
+            </ul>
+            <li><p>The last listed item!</p></li>
+        </ol>
     </body>
 </html>
